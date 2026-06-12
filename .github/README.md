@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-arc-zonal-shift`](https://www.npmjs.com/package/@aws-sdk/client-arc-zonal-shift/v/3.1066.0).
+[`@aws-sdk/client-arc-zonal-shift`](https://www.npmjs.com/package/@aws-sdk/client-arc-zonal-shift/v/3.1067.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-arc-zonal-shift - [https://cloud-sdk-builds.github.io/?sdk=client-arc-zonal-shift](https://cloud-sdk-builds.github.io/?sdk=client-arc-zonal-shift)
-- @aws-sdk/client-arc-zonal-shift v3.1066.0 - [https://cloud-sdk-builds.github.io/?sdk=client-arc-zonal-shift&version=3.1066.0](https://cloud-sdk-builds.github.io/?sdk=client-arc-zonal-shift&version=3.1066.0)
+- @aws-sdk/client-arc-zonal-shift v3.1067.0 - [https://cloud-sdk-builds.github.io/?sdk=client-arc-zonal-shift&version=3.1067.0](https://cloud-sdk-builds.github.io/?sdk=client-arc-zonal-shift&version=3.1067.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1066.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1067.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-hEqscbM/9ElY9EYkTiWtecK7YXQyxgn2X1lK4+tOI6yPYpF9g1uNpzAvUpJ9W5pa
+sha384-Nh1MeM4GA2cMRVdZXlKMfHW+jNDc+xNka2l3PbNn1MxldZapBmwHIr77smpsglPG
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-arc-zonal-shift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1066.0/index.min.mjs"
+            "@aws-sdk/client-arc-zonal-shift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1067.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1066.0/index.min.mjs": "sha384-hEqscbM/9ElY9EYkTiWtecK7YXQyxgn2X1lK4+tOI6yPYpF9g1uNpzAvUpJ9W5pa"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1067.0/index.min.mjs": "sha384-Nh1MeM4GA2cMRVdZXlKMfHW+jNDc+xNka2l3PbNn1MxldZapBmwHIr77smpsglPG"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-arc-zonal-shift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1066.0/index.min.mjs"
+                        "@aws-sdk/client-arc-zonal-shift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1067.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1066.0/index.min.mjs": "sha384-hEqscbM/9ElY9EYkTiWtecK7YXQyxgn2X1lK4+tOI6yPYpF9g1uNpzAvUpJ9W5pa"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-zonal-shift@3.1067.0/index.min.mjs": "sha384-Nh1MeM4GA2cMRVdZXlKMfHW+jNDc+xNka2l3PbNn1MxldZapBmwHIr77smpsglPG"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1066.0`)
+* Always pin to a specific version (`@3.1067.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-arc-zonal-shift/blob/refs/tags/3.1066.0/LICENSE
+https://github.com/cloud-sdk-builds/client-arc-zonal-shift/blob/refs/tags/3.1067.0/LICENSE
 ```
 
 ---
